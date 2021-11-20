@@ -3,9 +3,11 @@ package com.example.demo;
 public class Producto {
 
     int idProducto;
+    String Nombre;
 
-    public Producto(int idProducto) {
+    public Producto(int idProducto, String nombre) {
         this.idProducto = idProducto;
+        this.Nombre = nombre;
     }
 
     public int getIdProducto() {
